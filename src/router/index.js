@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Login from '@/components/Login'
 import Home from '@/components/Home'
 import Item from '@/components/item'
+import Goods from '@/components/goods'
 
 Vue.use(Router)
 
@@ -20,6 +21,10 @@ export default new Router({
     {
       path: '/item',
       component: Item
+    },
+    {
+      path: '/goods',
+      component: Goods
     }
   ]
 })
