@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Login from '@/components/Login'
 import Home from '@/components/Home'
+import Item from '@/components/item'
 
 Vue.use(Router)
 
@@ -15,6 +16,10 @@ export default new Router({
     {
       path: '/home',
       component: Home
+    },
+    {
+      path: '/item',
+      component: Item
     }
   ]
 })
